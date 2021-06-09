@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	
+}
+body{
+	height: 100%;
+}
+.center{
+	margin: 0 auto;
+	padding: 0 2%;
+	max-width: 960px;
+}
+header{
+	min-height:80px;
+	background-color: #37474f;
+}
+.logo{
+	float: left;
+	padding: 22px;
+	
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	padding: 22px;
+
+}
+.Menu-desktop{
+	float: right;
+	padding: 16px;
+}
+.Menu-desktop ul{
+	padding: 16px;
+}
+.Menu-desktop ul li{
+	display: inline-block;
+	list-style: none;
+}
+.Menu-desktop ul li a{
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0 8px;
+	color: white;
+}
+
+.showup{
+	min-height: 70vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.tabela{
+	min-height: 100%;
+	width: 65%;
+	font-size: 20px;
+	
+}
+
+table{
+	width: 100%;
+	border:1px solid black;
+	border-collapse: collapse;
+	background-color: none;
+}
+th{
+	font-size: 20px;
+	height: 40px;
+	text-align: center;
+	background-color:black;
+	color: white;	
+}	
+td{
+	font-size: 18px;
+	width:40px;
+	text-align: center;
+	font-weight:normal;
+	
+}
+
+.error{
+	position: relative;
+	box-shadow: 0px 0px 1px 1px black;
+	background-color: #b71c1c ;	
+}
+.True{
+	background-color: #00c853;
+	box-shadow: 0px 0px 1px 1px black;
+}

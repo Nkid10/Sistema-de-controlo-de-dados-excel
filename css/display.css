@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+bodY{
+	height: 100%;
+
+}
+.center{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+.clear{
+	clear: both;
+}
+header{
+	width: 100%;
+	min-height: 60px;
+}
+.logo{
+	float: left;
+}
+.Menu-desktop{
+	float: right;
+}
+.Menu-desktop ul{
+	padding: 12px;
+
+}
+.Menu-desktop ul li{
+	display: inline-block;
+	margin: 0 8px;
+	list-style: none;
+}
+.Menu-desktop ul li a{
+	text-decoration: none;
+}

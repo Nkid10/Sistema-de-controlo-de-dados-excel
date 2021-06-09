@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+.efeito{
+	position: relative;
+	display: flex;
+	color: white;
+	font-size: 28px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 10% auto 0;
+	width: 50%;
+	height: 400px;
+	background: linear-gradient(0deg, black,black);
+	border-radius: 30px;
+}
+.efeito::before,.efeito::after{
+	content: '';
+	position: absolute;
+	border-radius: 30px;
+	left:-2px;
+	top:-2px;
+	background: linear-gradient(45deg, #00695c ,#d50000,#880e4f,#f44336,#004d40,#e65100,#311b92,#d50000,#1de9b6);
+	background-size: 400%;
+	width: calc(100% + 5px);
+	height: calc(100% + 5px);
+	z-index: -1;
+	animation: animate 35s linear infinite;
+}
+
+@keyframes animate{
+	0%{
+		background-position: 0 0;
+	}
+	50%{
+		background-position: 400% 0;
+	}
+	100%{
+		background-position: 0 0;
+	}
+}
+.efeito::after{
+	filter:blur(10px);
+
+}
